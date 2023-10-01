@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* display: flex; */
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.menu{
+    margin-right: 130px;
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 30px;
+}
+.logo{
+    font-size: 40px;
+    margin-left: 120px;
+    color: aqua;
+}
+.menu li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+h1 span{
+    color: brown;
+}
+nav button{
+    border-radius: 15px;
+    width: 180px;
+    height: 60px;
+    background-color: aqua;
+    border: aqua;
+}
